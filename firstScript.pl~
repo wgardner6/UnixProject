@@ -1,0 +1,4 @@
+#!/usr/local/bin/perl
+print "Hello world!\n";
+print "This is a single statement.";
+print "Look, ", "a ", "list!\n";
