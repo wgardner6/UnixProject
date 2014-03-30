@@ -1,0 +1,1 @@
+cat location.txt | sed 's/:\"/\n/g' | egrep 'woeid' | egrep -o ':[0-9]*;' | sed 's/[^0-9]//g'

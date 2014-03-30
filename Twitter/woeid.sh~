@@ -1,0 +1,1 @@
+cat location.txt | egrep 'woeid' | egrep -o [0-9]*
