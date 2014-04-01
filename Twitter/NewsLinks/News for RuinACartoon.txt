@@ -1,2 +1,0 @@
-"http://twitter.com/home"
-"http://www.facebook.com/sharer.php"

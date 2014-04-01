@@ -53,9 +53,8 @@ for($i = 1; $i <= count($Data_Array)-1; $i=$i+2){
 //Get connection
 $twitterReturn = $connection->get($Data_Array[0], $options);
 
-//Determine file name if beginning of api call is "trends" such as "trends/place"
-//This should probably be rewritten to be more robust
-$file = substr($Data_Array[0],7);
-
+//Determine file name after first / such as "trends/place"
+$ftok = strtok($Data_Array[0]," /");
+$file = substr($Data_Array[0],strlen($ftok)+1)."\n";
 //Put contents of twitterReturn into file
 file_put_contents($file.'.txt',print_r($twitterReturn,true));
