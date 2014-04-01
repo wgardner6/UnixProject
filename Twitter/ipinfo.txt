@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>IP Address Geolocation to Identify Website Visitor's Geographical Location</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="Description" content="IP2Location.com IP Address Geolocation to Country, City, Region, Latitude, Longitude, ZIP Code, ISP, Domain Name, Timezone, NetSpeed, IDD, Country Code, Area Code, Weather Station Code and Weather Station Name Database" />
+	<meta name="Keywords" content="ip address, geolocation, country, city, region, latitude, longitude, ZIP code, ISP, domain name, timezone, netspeed, IDD, country code, area code, weather station code, weather station name" />
+
+	<link rel="stylesheet" type="text/css" href="/includes/css/style.css" />
+	<script language="javascript" src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
+	<script language="javascript" src="/includes/js/cookies.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/includes/css/glider.css" />
+<script language="javascript" src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
+<script language="javascript" src="/includes/js/glider.js"></script>
+	<script type="text/javascript">
+		eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('k n(){4 3="o@f.e";4 2="d";4 9=3.8;4 7="";b(4 i=0;i<3.8;i++){h(2.a(3.5(i))==-1){6=3.5(i);7+=(6)}m{6=(2.a(3.5(i))-9+2.8)%2.8;7+=(2.5(6))}}g.j.l="c:"+7}',25,25,'||key|coded|var|charAt|ltr|link|length|shift|indexOf|for|mailto|Ioat65yhO17uPc8YjJwq0sNXviSLM4edmF2AVpKxb3kfQZUBrTHnDl9gRWGCzE|Vvg|rzW8vViSrvP|window|if||location|function|href|else|contact|Q2zzv1S'.split('|'),0,{}));
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-11026515-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+		Event.observe(window, 'load', function(){
+			if(getCookie("expand")){
+				$('dbList').style.height='100%';
+				$('btnMore').hide();
+			}
+		});
+	</script>
+
+	<script type="text/javascript">
+	document.write(unescape("%3Cscript src='" + ('https:' == document.location.protocol ? 'https://' : 'http://') + "static.fraudlabspro.com/agent.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+
+	<script type="text/javascript">
+	try{
+		var fl = new FraudLabsPro;
+		fl.start({session_id: 'acmtopdmanh948vhua5ufhppd5'});
+	}
+	catch(e){}
+	</script>
+
+	
+		<script language="JavaScript">
+		<!--
+		
+	function pickProduct(){
+		var fields = "";
+		$$('input[type=checkbox]').each(function(obj){
+			if(obj.checked) fields += obj.name + ",";
+		});
+
+		new Ajax.Request(encodeURI('/ajax.pick-product'),{
+			method: 'get',
+			parameters: {fields: fields},
+			encoding: 'UTF-8',
+			onSuccess: function(transport){
+				var response = transport.responseText;
+				$('result').update(response);
+			},
+			onFailure: function(){ alert('Connection error.\nPlease try again later.'); }
+		});
+	}
+
+	Event.observe(window, 'load', function(){
+		pickProduct();
+
+		img2 = new Image();
+		img2.src = "/images/2.jpg";
+
+		img3 = new Image();
+		img3.src = "/images/3.jpg";
+	});
+
+		//-->
+		</script>
+		
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if lt IE 8]>
+	<style>
+	#sidebar-db a {
+		float:left;
+		margin-left:0;
+	}
+	</style>
+	<![endif]-->
+</head>
+
+<body>
+	<header>
+		<div class="container clearfix">
+			<div id="header-logo"><a href="/"><img src="/images/logo.png" title="IP2Location, Bringing Location to the Internet"></a></div>
+			<div id="slogan">Bringing Location to the Internet</div>
+			<div id="header-search">
+				<form id="frmDemo" action="/demo" method="post">
+					<input type="text" name="ipAddress" value="165.134.208.22">
+					<div onclick="$('frmDemo').submit();">&nbsp;</div>
+				</form>
+			</div>
+					</div>
+	</header>
+	<div style="clear:both;"></div>
+	<div class="container" style="height:10px;">
+		<div style="float:right; width:300px; text-align:right;">
+			<a href="http://www.facebook.com/ip2location" target="_blank"><img alt="" src="/images/sn_facebook.png" style="margin-top:-20px; width:24px;" /></a>&nbsp;
+			<a href="http://www.twitter.com/ip2locationcom" target="_blank"><img alt="" src="/images/sn_twitter.png" style="margin-top:-20px; width:24px;" /></a>&nbsp;
+			<a href="https://plus.google.com/106257918867147185440" target="_blank"><img alt="" src="/images/sn_google+.png" style="margin-top:-20px; width:24px;"/></a>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	
+	<nav>
+		<ul id="menu" class="container clearfix">
+			<li><a id="menu-home" href="/" class="active"><span class="icon"></span> Home</a></li>
+			<li><a id="menu-buyonline" href="/buy"><span class="icon"></span> Buy Online</a></li>
+			<li><a id="menu-demo" href="/demo"><span class="icon"></span> Demo</a></li>
+			<li><a id="menu-developers" href="/developers"><span class="icon"></span> Developers</a></li>
+			<li><a id="menu-contact" href="/contact"><span class="icon"></span> Contact</a></li>
+			<li class="right">
+			<a id="menu-login" href="/login"><span class="icon"></span> Login My Account</a>			</li>
+		</ul>
+	</nav>
+
+    <div id="main" class="container clearfix">
+				<div id="my-glider">
+			<div class="scroller">
+				<div class="content">
+					<div class="section" id="p1">
+						<img src="/images/1.jpg" width="925" height="225" align="left">
+					</div>
+					<div class="section" id="p2">
+						<img src="/images/2.jpg" width="925" height="225" align="left">
+					</div>
+					<div class="section" id="p3">
+						<img src="/images/3.jpg" width="925" height="225" align="left">
+					</div>
+					<div class="section" id="p4">
+						<img src="/images/4.jpg" width="925" height="225" align="left">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>&nbsp;</div>
+		<div style="clear:both;"></div>
+		<script type="text/javascript" charset="utf-8">
+			var slider = new Glider('my-glider', {autoGlide:true, duration:0.5, frequency:10});
+		</script>
+				<div id="sidebar">
+			<div id="sidebar-cart">
+			<span id="cartItem">0 item</span> selected
+			<div class="price">$<span id="cartTotal">0.00</span></div>
+			<a href="/cart">View Cart</a> | <a href="javascript:;">Checkout</a>			</div>
+
+			<div id="sidebar-db">
+			<h3>IP2Location Databases</h3>
+			<ul>
+				<li><span class="tags">DB1</span><a href="/databases/db1-ip-country"> IP-Country Database</a></li>
+				<li><span class="tags">DB2</span><a href="/databases/db2-ip-country-isp"> IP-Country-ISP Database</a></li>
+				<li><span class="tags">DB3</span><a href="/databases/db3-ip-country-region-city"> IP-Country-Region-City Database</a></li>
+				<li><span class="tags">DB4</span><a href="/databases/db4-ip-country-region-city-isp"> IP-Country-Region-City-ISP Database</a></li>
+				<li><span class="tags">DB5</span><a href="/databases/db5-ip-country-region-city-latitude-longitude"> IP-Country-Region-City-Latitude-Longitude Database</a></li>
+				<li><span class="tags">DB6</span><a href="/databases/db6-ip-country-region-city-latitude-longitude-isp"> IP-Country-Region-City-Latitude-Longitude-ISP Database</a></li>
+				<li><span class="tags">DB7</span><a href="/databases/db7-ip-country-region-city-isp-domain"> IP-Country-Region-City-ISP-Domain Database</a></li>
+				<li><span class="tags">DB8</span><a href="/databases/db8-ip-country-region-city-latitude-longitude-isp-domain"> IP-Country-Region-City-Latitude-Longitude-ISP-Domain Database</a></li>
+				<li><span class="tags">DB9</span><a href="/databases/db9-ip-country-region-city-latitude-longitude-zipcode"> IP-Country-Region-City-Latitude-Longitude-ZIPCode Database</a></li>
+				<li><span class="tags">DB10</span><a href="/databases/db10-ip-country-region-city-latitude-longitude-zipcode-isp-domain"> IP-Country-Region-City-Latitude-Longitude-ZIPCode-ISP-Domain Database</a></li>
+				<li><span class="tags">DB11</span><a href="/databases/db11-ip-country-region-city-latitude-longitude-zipcode-timezone"> IP-Country-Region-City-Latitude-Longitude-ZIPCode-TimeZone Database</a></li>
+				<li><span class="tags">DB12</span><a href="/databases/db12-ip-country-region-city-latitude-longitude-zipcode-timezone-isp-domain"> IP-Country-Region-City-Latitude-Longitude-ZIPCode-TimeZone-ISP-Domain Database</a></li>
+				<li><span class="tags">DB13</span><a href="/databases/db13-ip-country-region-city-latitude-longitude-timezone-netspeed"> IP-Country-Region-City-Latitude-Longitude-TimeZone-NetSpeed Database</a></li>
+				<li><span class="tags">DB14</span><a href="/databases/db14-ip-country-region-city-latitude-longitude-zipcode-timezone-isp-domain-netspeed"> IP-Country-Region-City-Latitude-Longitude-ZIPCode-TimeZone-ISP-Domain-NetSpeed Database</a></li>
+				<li><span class="tags">DB15</span><a href="/databases/db15-ip-country-region-city-latitude-longitude-zipcode-timezone-areacode"> IP-Country-Region-City-Latitude-Longitude-ZIPCode-TimeZone-AreaCode Database</a></li>
+				<li><span class="tags">DB16</span><a href="/databases/db16-ip-country-region-city-latitude-longitude-zipcode-timezone-isp-domain-netspeed-areacode"> IP-Country-Region-City-Latitude-Longitude-ZIPCode-TimeZone-ISP-Domain-NetSpeed-AreaCode Database</a></li>
+				<li><span class="tags">DB17</span><a href="/databases/db17-ip-country-region-city-latitude-longitude-timezone-netspeed-weather"> IP-Country-Region-City-Latitude-Longitude-TimeZone-NetSpeed-Weather Database</a></li>
+				<li><span class="tags">DB18</span><a href="/databases/db18-ip-country-region-city-latitude-longitude-zipcode-timezone-isp-domain-netspeed-areacode-weather"> IP-Country-Region-City-Latitude-Longitude-ZIPCode-TimeZone-ISP-Domain-NetSpeed-AreaCode-Weather Database</a></li>
+				<li><span class="tags">DB19</span><a href="/databases/db19-ip-country-region-city-latitude-longitude-isp-domain-mobile"> IP-Country-Region-City-Latitude-Longitude-ISP-Domain-Mobile Database</a></li>
+				<li><span class="tags">DB20</span><a href="/databases/db20-ip-country-region-city-latitude-longitude-zipcode-timezone-isp-domain-netspeed-areacode-weather-mobile"> IP-Country-Region-City-Latitude-Longitude-ZIPCode-TimeZone-ISP-Domain-NetSpeed-AreaCode-Weather-Mobile Database</a></li>
+
+				<li><span class="tags">DB21</span><a href="/databases/db21-ip-country-region-city-latitude-longitude-zipcode-timezone-areacode-elevation"> IP-Country-Region-City-Latitude-Longitude-ZIPCode-Timezone-Areacode-Elevation Database</a></li>
+				<li><span class="tags">DB22</span><a href="/databases/db22-ip-country-region-city-latitude-longitude-zipcode-timezone-isp-domain-netspeed-areacode-weather-mobile-elevation"> IP-Country-Region-City-Latitude-Longitude-ZIPCode-Timezone-ISP-Domain-Netspeed-Areacode-Weather-Mobile-Elevation Database</a></li>
+				<li><span class="tags">DB23</span><a href="/databases/db23-ip-country-region-city-latitude-longitude-isp-domain-mobile-usagetype"> IP-Country-Region-City-Latitude-Longitude-ISP-Domain-Mobile-UsageType Database</a></li>
+				<li><span class="tags">DB24</span><a href="/databases/db24-ip-country-region-city-latitude-longitude-zipcode-timezone-isp-domain-netspeed-areacode-weather-mobile-elevation-usagetype"> IP-Country-Region-City-Latitude-Longitude-ZIPCode-Timezone-ISP-Domain-Netspeed-Areacode-Weather-Mobile-Elevation-UsageType Database</a></li>
+			</ul>
+			</div>
+		</div>
+		<div id="main-content">
+			<p id="quotes">Need to know which country, state or city your internet visitors are from? How to get their ISP and domain information? Or check their connection type, ZIP code, area code, weather station or perhaps their mobile carrier information?</p>
+			<p style="font-size:1.2em;">
+			<b>IP2Location&trade;</b> is a non-intrusive geo IP solution to help you to identify visitor's geographical location, i.e. country, region, city, latitude, longitude, ZIP code, time zone, connection speed, ISP and domain name, IDD country code, area code, weather station code and name, and mobile carrier, elevation, usage type information using a proprietary IP address lookup database and technology without invading the Internet user's privacy. The solution is available as database, programming API and hosted solution. Request your free copy of the demo database today.
+			</p>
+
+			<div style="padding:5px; background-color:#e1f5f7;"><img alt="free locaproxy" src="/images/free_icon.png" style="margin-right:5px;"/>Free one-month subscription of <a href="http://www.locaproxy.com/plans" target="_blank">LocaProxy Developer Plan</a> (worth $19.95) for any new purchases.</div>
+
+			<h2>Product Picker</h2>
+			<p>Pick a product on-demand.</p>
+			<table class="table" style="width:660px;">
+			<col width="40">
+			<col width="200">
+			<col width="420">
+			<thead>
+			<tr>
+				<td>&nbsp;</td>
+				<td>Field Name</td>
+				<td>Value</td>
+			</tr>
+			</thead>
+			<tbody>
+			<tr class="alt">
+				<td>&nbsp;</td>
+				<td><label>IP Address</label></td>
+				<td><label>165.134.208.22</label></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="country" id="chkCountry" checked="1" disabled="1"></td>
+				<td><label for="chkCountry">Country</label></td>
+				<td><label for="chkCountry">UNITED STATES</label></td>
+			</tr>
+			<tr class="alt">
+				<td><input type="checkbox" name="region" id="chkRegionCity" onchange="pickProduct();"></td>
+				<td><label for="chkRegionCity">Region & City</label></td>
+				<td><label for="chkRegionCity">MISSOURI, SAINT LOUIS</label></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="position" id="chkLatLng" onchange="pickProduct();"></td>
+				<td><label for="chkLatLng">Latitude & Longitude</label></td>
+				<td><label for="chkLatLng">+38.62727, -90.19789</label></td>
+			</tr>
+			<tr class="alt">
+				<td><input type="checkbox" name="zipCode" id="chkZIPCode" onchange="pickProduct();"></td>
+				<td><label for="chkZIPCode">ZIP Code</label></td>
+				<td><label for="chkZIPCode">63101</label></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="isp" id="chkISP" onchange="pickProduct();"></td>
+				<td><label for="chkISP">ISP</label></td>
+				<td><label for="chkISP">ST. LOUIS UNIVERSITY</label></td>
+			</tr>
+			<tr class="alt">
+				<td><input type="checkbox" name="domain" id="chkDomain" onchange="pickProduct();"></td>
+				<td><label for="chkDomain">Domain</label></td>
+				<td><label for="chkDomain">SLU.EDU</label></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="timeZone" id="chkTimeZone" onchange="pickProduct();"></td>
+				<td><label for="chkTimeZone">Time Zone</label></td>
+				<td><label for="chkTimeZone">-05:00</label></td>
+			</tr>
+			<tr class="alt">
+				<td><input type="checkbox" name="netSpeed" id="chkNetSpeed" onchange="pickProduct();"></td>
+				<td><label for="chkNetSpeed">Net Speed</label></td>
+				<td><label for="chkNetSpeed">COMP</label></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="areaCode" id="chkAreaCode" onchange="pickProduct();"></td>
+				<td><label for="chkAreaCode">IDD Code & Area Code</label></td>
+				<td><label for="chkAreaCode">+1314</label></td>
+			</tr>
+			<tr class="alt">
+				<td><input type="checkbox" name="weather" id="chkWeather" onchange="pickProduct();"></td>
+				<td><label for="chkWeather">Weather Station</label></td>
+				<td><label for="chkWeather">SAINT LOUIS (USMO0787)</label></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="mobile" id="chkMobile" onchange="pickProduct();"></td>
+				<td><label for="chkMobile">Mobile MCC, MNC, & Carrier name</label></td>
+				<td><label for="chkMobile">-</label></td>
+			</tr>
+			<tr class="alt">
+				<td><input type="checkbox" name="elevation" id="chkElevation" onchange="pickProduct();"></td>
+				<td><label for="chkElevation">Elevation</label></td>
+				<td><label for="chkElevation">141</label></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="usageType" id="chkUsageType" onchange="pickProduct();"></td>
+				<td><label for="chkUsageType">Usage Type</label></td>
+				<td><label for="chkUsageType">EDU</label></td>
+			</tr>
+			<tr>
+				<td id="result" colspan="3" style="background:#ffffcc;"></td>
+			</tr>
+			</tbody>
+			</table>
+
+			<p>&nbsp;</p>
+			<h2>Developing Applications using IP2Location&trade;</h2><br />
+			<table style="background:url('/images/hm_bg.png') no-repeat center center;">
+			    <tr>
+					<td height="145"><img src="/images/hm_icon1.png" /></td>
+					<td>
+						<ul class="hm_list">
+							<li>Display native language and currency</li>
+							<li>Redirect web pages based on visitor’s location</li>
+							<li>Digital rights management (DRM)</li>
+						</ul>
+					</td>
+					<td><img src="/images/hm_icon2.png" style="padding-left:10px;" /></td>
+					<td>
+						<ul class="hm_list">
+							<li>Detect and prevent password sharing or abuse of service</li>
+							<li><a href="http://www.fraudlabspro.com" target="_blank">Detect and reduce credit card fraud</a></li>
+						</ul>
+					</td>
+				</tr>
+
+			    <tr>
+					<td height="145"><img src="/images/hm_icon3.png" /></td>
+					<td>
+						<ul class="hm_list">
+							<li>Web traffics analysis</li>
+							<li>Auto-selection of country on forms</li>
+							<li>Filter access from countries you do not do business with</li>
+						</ul>
+					</td>
+					<td><img src="/images/hm_icon4.png" style="padding-left:10px;" /></td>
+					<td>
+						<ul class="hm_list">
+							<li>Geo targeting for increased sales and click-through</li>
+							<li>Spam filtering by location</li>
+							<li><a href="http://www.geodatasource.com" target="_blank">Display world major cities</a></li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			</p>
+
+
+		</div>
+    </div>
+
+    <footer>
+		<div id="footer-bg" class="container">
+			<div id="footer-rich" class="clearfix">
+				<div id="footer-customer">
+				<h3>Customer</h3>
+				<ul>
+				<li><a href="/login">Client Login</a></li>
+				<li><a href="/download">Download</a></li>
+				<li><a href="/developers">Developer API</a></li>
+				<li><a href="/tutorials">Tutorials</a></li>
+				</ul>
+				</div>
+
+				<div id="footer-products">
+				<h3>Products</h3>
+				<ul class="footer-2col-left">
+				<li><span class="tags" style="background:#2a211c">DB</span> <a href="/databases">Databases</a></li>
+				<li><span class="tags" style="background:#288cc1">DN</span> <a href="/software/dot-net-component">NET Component</a></li>
+				<li><span class="tags" style="background:#309900">JV</span> <a href="/software/java-component">Java Component</a></li>
+				<li><span class="tags" style="background:#a40032">AX</span> <a href="/software/active-x">ActiveX/COM DLL</a></li>
+				</ul>
+				<ul class="footer-2col-right">
+				<li><span class="tags" style="background:#d7b600">HM</span> <a href="/software/http-module">HTTP Module</a></li>
+				<li><span class="tags" style="background:#fd5300">WS</span> <a href="/web-service">Web Service</a></li>
+				<li><span class="tags" style="background:#cc0000">FL</span> <a href="/fraud-labs-web-service">XML Web Service</a></li>
+				<li><span class="tags" style="background:#4e4e4e">PX</span> <a href="/databases/ip2proxy">IP2Proxy&trade;</a></li>
+				<li><span class="tags" style="background:#cc0000">FLP</span> <a href="http://www.fraudlabspro.com" target="_blank">Fraud Detection</a></li>
+				</ul>
+				</div>
+
+				<div id="footer-freesoftware">
+				<h3>Free Software</h3>
+				<ul>
+				<li><a href="/free/applications">Applications</a></li>
+				<li><a href="/free/visitor-blocker">Firewall List by Country</a></li>
+				<li><a href="/free/email-tracer">Email Tracer</a></li>
+				<li><a href="/free/traceroute">Traceroute</a></li>
+				<li><a href="/free/downloader">Downloader Script</a></li>
+				<li><a href="http://www.ip2phrase.com" target="_blank">IP2Phrase&trade;</a></li>
+				<li><a href="http://www.ip2map.com" target="_blank">IP2Map&trade;</a></li>
+				<li><a href="/free/excel-addin">Excel Add-In</a></li>
+				<li><a href="/free/plugins">Extensions / Plugins</a></li>
+				<li><a href="/free/widgets">Widgets</a></li>
+				</ul>
+				</div>
+				
+				<div id="footer-freedatabase">
+				<h3>Free Database</h3>
+				<ul>
+				<li><a href="http://lite.ip2location.com" target="_blank">IP2Location LITE</a></li>
+				<li><a href="/free/ipv6">IPv6-Country Database</a></li>
+				<li><a href="/free/continent-multilingual">Continent Multilingual</a></li>
+				<li><a href="/free/country-multilingual">Country Multilingual</a></li>
+				<li><a href="/free/city-multilingual">City Multilingual</a></li>
+				<li><a href="/free/zipcode-metro">ZIP Code to Metro</a></li>
+				<li><a href="/free/weather-station-code">Weather Station Code</a></li>
+				<li><a href="/free/country-flags">Country Flags</a></li>
+				<li><a href="/free/world-svg-map">World SVG Map</a></li>
+				<li><a href="/free/olson-timezone">Olson TimeZone</a></li>
+				</ul>
+				</div>
+
+				<div id="footer-links">
+					<h3>Links</h3>
+					<ul>
+						<li><a href="/privacy">Privacy Policy</a></li>
+						<li><a href="/terms">Terms of Use</a></li>
+						<li><a href="/data-accuracy">Data Accuracy</a></li>
+						<li><a href="/area-code-coverage">Area Code Coverage</a></li>
+						<li><a href="/zip-code-coverage">ZIP Code Coverage</a></li>
+						<li><a href="/reports">IP Reports</a></li>
+						<li><a href="/newsletter">Newsletter</a></li>
+						<li><a href="/sitemap">Sitemap</a></li>
+					</ul>
+
+					<!--div style="text-align:center; border-top:1px solid #27639b; margin-top:20px;">
+					<a href="http://www.facebook.com/ip2location" target="_blank"><img alt="" src="/images/sn_facebook.png" /></a>&nbsp;
+					<a href="https://plus.google.com/106257918867147185440" target="_blank"><img alt="" src="/images/sn_google+.png" /></a>
+					</div-->
+				</div>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+
+		<div class="container">
+			<!--div style="float:left; width:300px; text-align:left;">
+				<a href="http://www.facebook.com/ip2location" target="_blank"><img alt="" src="/images/sn_facebook.png" /></a>&nbsp;
+				<a href="https://plus.google.com/106257918867147185440" target="_blank"><img alt="" src="/images/sn_google+.png" /></a>
+			</div-->
+			<div style="width:100%; text-align:center;">
+				<a href="http://play.google.com/store/apps/details?id=com.ip2location.mobile" target="_blank" style="margin-left:30px;"><img alt="ip2location android app" src="/images/google_play.png" /></a>
+				<a href="http://itunes.apple.com/us/app/ip2location-geolocation/id771597553?ls=1&mt=8" target="_blank" style="margin-left:30px;"><img alt="ip2location apple app" src="/images/apple_store.png" /></a>
+				<a href="http://windowsphone.com/s?appid=c05c1c55-2057-4f15-ab1f-e3f56179adb0" target="_blank" style="margin-left:30px;"><img alt="ip2location windows phone app" src="/images/windows_store.png" /></a>
+			</div>
+		</div>
+
+		<div style="margin-top:10px;">
+			<div id="footer-copyright">
+				Copyright &copy; 2001-2014 IP2Location.com. All Rights Reserved.
+			</div>
+		</div>
+    </footer>
+<a href="/important-notice" style="display:none;"> </a>
+</body>
+</html>
