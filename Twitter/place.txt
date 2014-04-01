@@ -1,0 +1,103 @@
+Array
+(
+    [0] => stdClass Object
+        (
+            [trends] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [name] => #YadiBomb
+                            [query] => %23YadiBomb
+                            [url] => http://twitter.com/search?q=%23YadiBomb
+                            [promoted_content] => 
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [name] => Happy Opening Day
+                            [query] => %22Happy+Opening+Day%22
+                            [url] => http://twitter.com/search?q=%22Happy+Opening+Day%22
+                            [promoted_content] => 
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [name] => Billy Hamilton
+                            [query] => %22Billy+Hamilton%22
+                            [url] => http://twitter.com/search?q=%22Billy+Hamilton%22
+                            [promoted_content] => 
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [name] => #homerun
+                            [query] => %23homerun
+                            [url] => http://twitter.com/search?q=%23homerun
+                            [promoted_content] => 
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [name] => Ryan Braun
+                            [query] => %22Ryan+Braun%22
+                            [url] => http://twitter.com/search?q=%22Ryan+Braun%22
+                            [promoted_content] => 
+                        )
+
+                    [5] => stdClass Object
+                        (
+                            [name] => #CardinalNation
+                            [query] => %23CardinalNation
+                            [url] => http://twitter.com/search?q=%23CardinalNation
+                            [promoted_content] => 
+                        )
+
+                    [6] => stdClass Object
+                        (
+                            [name] => Waino
+                            [query] => Waino
+                            [url] => http://twitter.com/search?q=Waino
+                            [promoted_content] => 
+                        )
+
+                    [7] => stdClass Object
+                        (
+                            [name] => #STLCards
+                            [query] => %23STLCards
+                            [url] => http://twitter.com/search?q=%23STLCards
+                            [promoted_content] => 
+                        )
+
+                    [8] => stdClass Object
+                        (
+                            [name] => Cubs
+                            [query] => Cubs
+                            [url] => http://twitter.com/search?q=Cubs
+                            [promoted_content] => 
+                        )
+
+                    [9] => stdClass Object
+                        (
+                            [name] => Peter Bourjos
+                            [query] => %22Peter+Bourjos%22
+                            [url] => http://twitter.com/search?q=%22Peter+Bourjos%22
+                            [promoted_content] => 
+                        )
+
+                )
+
+            [as_of] => 2014-03-31T22:30:21Z
+            [created_at] => 2014-03-31T22:25:30Z
+            [locations] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [name] => St. Louis
+                            [woeid] => 2486982
+                        )
+
+                )
+
+        )
+
+)

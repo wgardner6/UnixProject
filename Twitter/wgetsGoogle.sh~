@@ -1,0 +1,11 @@
+wget "https://news.google.com/?q=Happy Opening Day" -O "Trends/Happy Opening Day.txt" -o /dev/null
+wget "https://news.google.com/?q=Ryan Braun" -O "Trends/Ryan Braun.txt" -o /dev/null
+wget "https://news.google.com/?q=Cubs" -O "Trends/Cubs.txt" -o /dev/null
+wget "https://news.google.com/?q=#STLCards" -O "Trends/#STLCards.txt" -o /dev/null
+wget "https://news.google.com/?q=Cardinals" -O "Trends/Cardinals.txt" -o /dev/null
+wget "https://news.google.com/?q=World Series" -O "Trends/World Series.txt" -o /dev/null
+wget "https://news.google.com/?q=St. Louis" -O "Trends/St. Louis.txt" -o /dev/null
+wget "https://news.google.com/?q=#RipZaynMalik" -O "Trends/#RipZaynMalik.txt" -o /dev/null
+wget "https://news.google.com/?q=#IfTwitterExistedInHistory" -O "Trends/#IfTwitterExistedInHistory.txt" -o /dev/null
+wget "https://news.google.com/?q=#AndreaTo1Milli" -O "Trends/#AndreaTo1Milli.txt" -o /dev/null
+wget "https://news.google.com/?q=St. Louis" -O "Trends/St. Louis.txt" -o /dev/null

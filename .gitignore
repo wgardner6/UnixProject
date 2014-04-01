@@ -1,5 +1,1 @@
-Twitter/twitteroauth/config.php
-Twitter/twitteroauth/config.php~
-Bostontweets.txt Malaysiatweets.txt NCAAtweets.txt RiseoftheBillikenstweets.txt slutweets.txt
-testStream.py
-tweepy/
+Twitter/closest.txt Twitter/ipinfo.txt Twitter/LatLong.txt Twitter/place.txt Twitter/trends.txt Twitter/woeid.txt

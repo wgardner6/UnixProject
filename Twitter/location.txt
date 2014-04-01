@@ -1,1 +1,0 @@
-a:1:{i:0;O:8:"stdClass":7:{s:4:"name";s:13:"San Francisco";s:9:"placeType";O:8:"stdClass":2:{s:4:"code";i:7;s:4:"name";s:4:"Town";}s:3:"url";s:43:"http://where.yahooapis.com/v1/place/2487956";s:8:"parentid";i:23424977;s:7:"country";s:13:"United States";s:5:"woeid";i:2487956;s:11:"countryCode";s:2:"US";}}
