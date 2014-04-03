@@ -1,1 +1,0 @@
-cat $1 | sed 's/\<a/\<a\n/g' | egrep 'href' | egrep -vw 'yahoo|flickr' | egrep -o '"http://[^\"]*"' | sed 's/\(.*\)/wget \1/'

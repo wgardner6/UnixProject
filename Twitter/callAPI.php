@@ -55,6 +55,6 @@ $twitterReturn = $connection->get($Data_Array[0], $options);
 
 //Determine file name after first / such as "trends/place"
 $ftok = strtok($Data_Array[0]," /");
-$file = substr($Data_Array[0],strlen($ftok)+1)."\n";
+$file = substr($Data_Array[0],strlen($ftok)+1);
 //Put contents of twitterReturn into file
 file_put_contents($file.'.txt',print_r($twitterReturn,true));

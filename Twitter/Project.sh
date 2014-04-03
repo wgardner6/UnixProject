@@ -15,8 +15,10 @@ echo Calling trends to save as txt
 bash trends.sh > trends.txt
 #Output the trending data for specific place
 echo Sending trends to command line
+echo -e "\n"
 bash formatTrends.sh
 #Saves all the trends into appropriate wget calls
+echo -e "\n"
 echo Calling googleNews
 bash googleNews.sh
 #Calls wget on all the trend searches
@@ -36,3 +38,5 @@ echo Calling NewsLinks
 bash NewsLinks.sh
 mv News\ for\ * NewsLinks/
 
+
+bash twitterURLs.sh
