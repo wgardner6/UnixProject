@@ -6,7 +6,7 @@ session_start();
 //Add Twitter library by https://github.com/abraham/twitteroauth
 require_once('twitteroauth/twitteroauth/twitteroauth.php'); 
 //Add config file which contains tokens for API calls
-require_once('twitteroauth/config.php');
+require_once('twitterTokens/config.php');
 
 //Unset variables
 unset($connection);
