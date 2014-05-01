@@ -49,7 +49,6 @@ for($i = 1; $i <= count($Data_Array)-1; $i=$i+2){
        //Add values with specific keys such as lat=>...
        $options[$Data_Array[$i]] = $Data_Array[$i+1];
 }
-
 //Get connection
 $twitterReturn = $connection->get($Data_Array[0], $options);
 

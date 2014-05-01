@@ -1,3 +1,0 @@
-wget "https://news.search.yahoo.com/search;_ylt=AwrBEiRcjjlThmwAd1fQtDMD;_ylc=X1MDNTM3MjAyNzIEX3IDMgRiY2sDYTd2NmdjbDlqZHNjYyUyNmIlM0QzJTI2cyUzRHU1BGZyA3VoM19uZXdzX3ZlcnRfZ3MEZ3ByaWQDemZ5S2QzRGZUR2Eud1h6NVVUampiQQRtdGVzdGlkA251bGwEbl9yc2x0AzEwBG5fc3VnZwMxMARvcmlnaW4DbmV3cy5zZWFyY2gueWFob28uY29tBHBvcwMwBHBxc3RyAwRwcXN0cmwDBHFzdHJsAzEwBHF1ZXJ5A09wZW5pbmdEYXkEdF9zdG1wAzEzOTYyODg3OTkzNjUEdnRlc3RpZANudWxs?gprid=zfyKd3DfTGa.wXz5UTjjbA&pvid=rogSAzk4LjGj_NBlUzbxjBWoMjA4LlM5jlz_upW4&p=OpeningDay&fr2=sb-top&fr=uh3_news_vert_gs&type=2button"
-
-cat $1 | sed 's/\<a/\<a\n/g' | egrep 'href' | egrep -vw 'yahoo|flickr' | egrep -o '"http://[^\"]*"' | sed 's/\(.*\)/wget \1/'
