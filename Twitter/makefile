@@ -42,7 +42,7 @@ wgetsGoogle.sh: place.txt
 #Cleans up the calls to Google to just get the URLs that are specific to news articles and nothing else
 
 LinkAggregator.txt: trends.txt wgetsGoogle.sh
-	cat trends.txt | sed 's/\(^.*$$\)/cat \"Trends\/\1.txt\"/' | sed "s/cat \"Trends\/\(.*$$\)/cat \"Trends\/\1 | egrep -o \'\"http:\/\/[^\\\\\"]*\"\' | egrep -viw 'google|youtube|favicon|googlenewsblog' | uniq >\"News for \1/" > $@
+	cat trends.txt | sed 's/\(^.*$$\)/cat \"Trends\/\1.txt\"/' | sed "s/cat \"Trends\/\(.*$$\)/cat \"Trends\/\1 | egrep -o \'\"http:\/\/[^\\\\\"]*\"\' | egrep -viw 'google|youtube|favicon|googlenewsblog|facebook|twitter' | uniq >\"News for \1/" > $@
 
 #Cleans up the LinkAggregator and just outputs the newslinks
 
@@ -54,4 +54,4 @@ NewsLinks.sh: LinkAggregator.txt
 #Removes all text files that are generated
 
 clean:
-	rm -f ipinfo.txt LatLong.txt closest.txt woeid.txt place.txt trends.txt wgetsGoogle.sh Trends/*.txt LinkAggregator.txt NewsLinks.sh NewsLinks/*.txt TwitterHeadlines.txt
+	rm -f ipinfo.txt LatLong.txt closest.txt woeid.txt place.txt trends.txt wgetsGoogle.sh Trends/*.txt LinkAggregator.txt NewsLinks.sh NewsLinks/*.txt TwitterHeadlines.txt worldTrends.txt worldWoeid.txt
